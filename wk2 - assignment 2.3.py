@@ -4,7 +4,6 @@
 # You should use raw_input to read a string and float() to convert the string to a number. 
 # Do not worry about error checking or bad user data.
 
-python
 
 # This first line is provided for you
 
