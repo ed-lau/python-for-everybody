@@ -27,10 +27,10 @@ Question 4
 What Python function would you use if you wanted to prompt the user for a file name to open?
 file_input()
 read()
-raw_input()
+input()
 cin
 
-Answer: raw_input()
+Answer: input()
 
 Question 5
 What is the purpose of the newline character in text files?
