@@ -23,6 +23,8 @@ The list of folders to be searched to find the file we want to open
 Whether we want to read data from the file or write data to the file
 What disk drive the file is stored on
 
+Answer: Whether we want to read data from the file or write data to the file
+
 Question 4
 What Python function would you use if you wanted to prompt the user for a file name to open?
 file_input()
