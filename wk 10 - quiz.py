@@ -20,7 +20,7 @@ pop()
 index()
 """
 
-# Answer: sort()
+# Answer: index()
 
 """
 Question 3
