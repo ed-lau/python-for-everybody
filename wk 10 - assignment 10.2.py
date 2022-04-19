@@ -32,4 +32,4 @@ for k,v in hcount.items():                           #k = hour, v = count
 
 hlst.sort()                                         #sort list by hour
 for k,v in hlst:                                    #loop through list of tuples
-    print k,v                                       #print counts sorted by hour
+    print(k,v)                                      #print counts sorted by hour
