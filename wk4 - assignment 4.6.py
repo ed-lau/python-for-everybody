@@ -14,4 +14,4 @@ hrs = float(hrs)
 rate = float(rate)
 
 p = computepay(hrs, rate)
-print p
+print(p)

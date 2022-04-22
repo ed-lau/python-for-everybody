@@ -93,14 +93,14 @@ data = sortrev(data)
 Question 8
 Using the following tuple, how would you print 'Wed'?
 days = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
-print days[1]
-print days(2)
-print days{2}
-print days.get(1,-1)
-print days[2]
+print(days[1])
+print(days(2))
+print(days{2})
+print(days.get(1,-1))
+print(days[2])
 """
 
-# Answer: print days[2]
+# Answer: print(days[2])
 
 """
 Question 9

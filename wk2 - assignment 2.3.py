@@ -17,4 +17,4 @@ rate = float(rate)
 
 pay = hrs*rate
 
-print pay
+print(pay)

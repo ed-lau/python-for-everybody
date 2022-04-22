@@ -3,10 +3,10 @@ __author__ = 'edwardlau'
 Question 1
 What will the following Python program print out:
 def fred():
-   print "Zap"
+   print("Zap")
 
 def jane():
-   print "ABC"
+   print("ABC")
 
 fred()
 jane()
@@ -18,7 +18,7 @@ fred()
 Question 2
 What would the following Python code sequence print?
 str = "hello there bob"
-print str[0]
+print(str[0])
 there
 hello there bob
 h
@@ -41,11 +41,11 @@ Cloud
 Question 4
 Which of the following lines will never print out regardless of the value for x?
 if x < 2 :
-    print "Below 2"
+    print("Below 2")
 elif x < 0 :
-    print "Negative"
+    print("Negative")
 else :
-    print "Something else"
+    print("Something else")
 All three lines will print all the time
 Negative
 Something else
@@ -60,14 +60,14 @@ What will the following code print out?
 x = 12
 if x <= 10:
    if x > 4:
-      print "One"
+      print("One")
    else:
-      print "Two"
+      print("Two")
 else:
    if x >= 11:
-      print "Three"
+      print("Three")
    else:
-      print "Four"
+      print("Four")
 One
 Three
 Two
@@ -80,7 +80,7 @@ Question 6
 What would the following Python print out?
 abc = "With three words"
 stuff = abc.split()
-print len(stuff)
+print(len(stuff))
 ['With three words']
 14
 16
@@ -119,10 +119,10 @@ To store items in order (like a can of Pringles potato chips)
 Question 9
 What will the following Python program print out:
 def fred():
-   print "Zap"
+   print("Zap")
 
 def jane():
-   print "ABC"
+   print("ABC")
 
 jane()
 fred()
@@ -162,7 +162,7 @@ lst.append(4)
 lst.append(10)
 lst.append(21)
 lst.append(6)
-print lst[2]
+print(lst[2])
 none of the above
 21
 10
@@ -198,7 +198,7 @@ Question 15
 You develop the following program in Python:
 f = int(raw_input("Enter:"))
 c = ( f - 32 ) * ( 5 / 9 )
-print "Celsius",c
+print("Celsius",c)
 And when you run it three times you get the following output:
 Enter:212
 Celsius 0
@@ -224,7 +224,7 @@ x = 0
 for value in [3, 41, 12, 9, 74, 15] :
     if value < 10 :
         x = x + value
-print x
+print(x)
 41
 12
 15
@@ -239,10 +239,10 @@ What would the following Python code print out?
 fline = "blah blah"
 
 if len(fline) > 1 :
-    print "More than one"
+    print("More than one")
     if fline[0] == "h" :
-        print "Has an h"
-print "All done"
+        print("Has an h")
+print("All done")
 More than one
 All done
 More than one
@@ -272,7 +272,7 @@ Question 19
 What would the following Python code print out?
 stx = "hello there bob how are you"
 wds = stx.split()
-print wds[2]
+print(wds[2])
 bob
 are
 e
@@ -288,7 +288,7 @@ x = -1
 for value in [3, 41, 12, 9, 74, 15] :
     if value < x :
         x = value
-print x
+print(x)
 21
 74
 15

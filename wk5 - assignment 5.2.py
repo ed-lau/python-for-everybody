@@ -14,7 +14,7 @@ if num == "done" : break
 try:
         num = int(num)
 except:
-        print "Invalid input"
+        print("Invalid input")
 continue
 
 if largest is None:
@@ -28,5 +28,5 @@ elif smallest > num:
         smallest = num
 
 
-print "Maximum is", largest
-print "Minimum is", smallest
+print("Maximum is", largest)
+print("Minimum is", smallest)

@@ -13,7 +13,7 @@ Question 2
 What will the following program print out:
 >>> x = 15
 >>> x = x + 5
->>> print x
+>>> print(x)
 
 15
 20

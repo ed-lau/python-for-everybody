@@ -31,7 +31,7 @@ Question 4
 What would the following Python code print out?
 fruit = 'Banana'
 fruit[0] = 'b'
-print fruit
+print(fruit)
 Nothing would print - the program fails with a traceback
 b
 banana
@@ -67,7 +67,7 @@ What does the following Python code print out?
 a = [1, 2, 3]
 b = [4, 5, 6]
 c = a + b
-print len(c)
+print(len(c))
 [1, 2, 3, 4, 5, 6]
 [1, 2, 3]
 21
@@ -103,7 +103,7 @@ Question 10
 What will the following Python code print out?
 friends = [ 'Joseph', 'Glenn', 'Sally' ]
 friends.sort()
-print friends[0]
+print(friends[0])
 Joseph
 Sally
 Glenn

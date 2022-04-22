@@ -21,9 +21,9 @@ Answer: =
 Question 3
 What is true about the following code segment:
 if  x == 5 :
-    print 'Is 5'
-    print 'Is Still 5'
-    print 'Third 5'
+    print('Is 5')
+    print('Is Still 5')
+    print('Third 5')
 Depending on the value of x, either all three of the print statements will execute or none of the statements will execute
 The string 'Is 5' will always print out regardless of the value for x.
 The string 'Is 5' will never print out regardless of the value for x.
@@ -44,9 +44,9 @@ Answer: You de-indent the next line past the if block to the same level of inden
 Question 5
 You look at the following text:
 if x == 6 :
-    print 'Is 6'
-    print 'Is Still 6'
-    print 'Third 6'
+    print('Is 6')
+    print('Is Still 6')
+    print('Third 6')
 It looks perfect but Python is giving you an 'Indentation Error' on the second print statement. What is the most likely reason?
 Python has reached its limit on the largest Python program that can be run
 Python thinks 'Still' is a mis-spelled word in the string
@@ -68,12 +68,12 @@ Question 7
 What will the following code print out?
 x = 0
 if x < 2 :
-    print 'Small'
+    print('Small')
 elif x < 10 :
-    print 'Medium'
+    print('Medium')
 else :
-    print 'LARGE'
-print 'All done'
+    print('LARGE')
+print('All done')
 Small
 Medium
 All done
@@ -89,11 +89,11 @@ Answer: Small// All done
 Question 8
 For the following code,
 if x < 2 :
-    print 'Below 2'
+    print('Below 2')
 elif x >= 2 : 
-    print 'Two or more'
+    print('Two or more')
 else :
-    print 'Something else'
+    print('Something else')
 What value of 'x' will cause 'Something else' to print out?
 x = -22
 x = -2.0
@@ -106,10 +106,10 @@ Question 9
 'In the following code (numbers added) - which will be the last line to execute successfully?
 (1)   astr = 'Hello Bob'
 (2)   istr = int(astr)
-(3)   print 'First', istr
+(3)   print('First', istr)
 (4)   astr = '123'
 (5)   istr = int(astr)
-(6)   print 'Second', istr
+(6)   print('Second', istr)
 5
 1
 6
