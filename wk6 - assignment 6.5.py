@@ -2,10 +2,11 @@
 #Convert the extracted value to a floating point number and print it out.
 
 text = "X-DSPAM-Confidence:    0.8475";
-str = 'X-DSPAM-Confidence: 0.8475'
-ipos = str.find(':')
-#print(ipos)
-piece = str[ipos+2:]
-#print(piece)
-value = float(piece)
-print(value)
+
+space = text.find(" ")
+
+substring = text[space:]
+substring = substring.strip()
+substring = float(substring)
+
+print substring
