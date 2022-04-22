@@ -20,12 +20,12 @@ Answer: for/in
 Question 3
 For the following list, how would you print out 'Sally'?
 friends = [ 'Joseph', 'Glenn', 'Sally' ]
-print friends[2]
-print friends[3]
-print friends[2:1]
-print friends['Sally']
+print(friends[2])
+print(friends[3])
+print(friends[2:1])
+print(friends['Sally'])
 
-Answer: print friends[2]
+Answer: print(friends[2])
 
 Question 4
 What would the following Python code print out?
@@ -34,23 +34,22 @@ fruit[0] = 'b'
 print fruit
 Nothing would print - the program fails with a traceback
 b
-[0]
 banana
 Banana
 B
 
-Answer: othing would print - the program fails with a traceback
+Answer: Nothing would print - the program fails with a traceback
 
 Question 5
 Which of the following Python statements would print out the length of a list stored in the variable data?
-print data.length()
-print len(data)
-print data.length
-print strlen(data)
-print length(data)
-print data.Len
+print(data.length())
+print(len(data))
+print(data.length)
+print(strlen(data))
+print(length(data))
+print(data.Len)
 
-Answer: print len(data)
+Answer: print(len(data))
 
 Question 6
 What type of data is produced when you call the range() function?
