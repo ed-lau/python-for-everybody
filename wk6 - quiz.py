@@ -16,14 +16,14 @@ Answer: Hellothere
 Question 2
 What does the following Python program print out?
 x = '40'
-y = int(x) + 2
+y = (x) + 2
 print y
 42
 x2
 402
-int402
+Traceback
 
-Answer: 42
+Answer: Traceback 
 
 Question 3
 How would you use the index operator [] to print out the letter q from the following string?
