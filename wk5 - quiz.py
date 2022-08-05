@@ -2,8 +2,8 @@ Question 1
 What is wrong with this Python loop:
         n = 5
 while n > 0 :
-        print n
-print 'All done'
+        print(n)
+print('All done')
 This loop will run forever
 There should be no colon on the while statement
 The print 'All done' statement should be indented four spaces
@@ -34,7 +34,7 @@ What does the following Python program print out?
 tot = 0 
 for i in [5, 4, 3, 2, 1] :
         tot = tot + 1
-print tot
+print(tot)
 0
 5
 10
@@ -46,8 +46,8 @@ Question 5
 What is the iteration variable in the following Python code:
         friends = ['Joseph', 'Glenn', 'Sally']
 for friend in friends : 
-        print 'Happy New Year:',  friend
-print 'Done!'
+        print('Happy New Year:',  friend)
+print('Done!')
 friend
 friends
 Sally
@@ -61,7 +61,7 @@ What is a good description of the following bit of Python code?
 zork = 0
 for thing in [9, 41, 12, 3, 74, 15] :
         zork = zork + thing
-print 'After', zork
+print('After', zork)
 Sum all the elements of a list
 Find the smallest item in a list
 Count all of the elements in a list
@@ -75,7 +75,7 @@ smallest_so_far = -1
 for the_num in [9, 41, 12, 3, 74, 15] :
         if the_num < smallest_so_far :
         smallest_so_far = the_num
-print smallest_so_far
+print(smallest_so_far)
 Hint: This is a trick question and most would say this code has a bug - so read carefully
 -1
 3
@@ -109,9 +109,9 @@ Question 10
 How many times will the body of the following loop be executed?
 n = 0
 while n > 0 :
-        print 'Lather'
-print 'Rinse'
-print 'Dry off!'
+        print('Lather')
+print('Rinse')
+print('Dry off!')
 1
 0
 5

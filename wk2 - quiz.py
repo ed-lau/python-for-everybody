@@ -13,7 +13,7 @@ Answer: # This is a test
 Question 2
 What does the following code print out?
 
-print "123" + "abc"
+print("123" + "abc")
 This is a syntax error because you cannot add strings
 hello world
 123abc

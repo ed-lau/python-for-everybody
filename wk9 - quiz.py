@@ -27,7 +27,7 @@ What would the following Python code print out?
 """
 
 stuff = dict()
-print stuff['candy']
+print(stuff['candy'])
 
 """
 The program would fail with a traceback
@@ -42,7 +42,7 @@ candy
 Question 4
 What would the following Python code print out?
 stuff = dict()
-print stuff.get('candy',-1)
+print(stuff.get('candy',-1))
 The program would fail with a traceback
 'candy'
 0

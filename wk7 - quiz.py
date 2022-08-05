@@ -61,7 +61,7 @@ fhand = open('mbox.txt')
 x = 0
 for line in fhand:
         x = x + 1
-print x
+print(x)
 Count the lines in the file 'mbox.txt'
 Reverse the order of the lines in mbox.txt
 Remove the leading and trailing spaces from each line in mbox.txt

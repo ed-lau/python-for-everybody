@@ -16,16 +16,16 @@ except:
     number = -1
 
 if number >= 0.9:
-    print "A"
+    print("A")
 elif number >= 0.8:
-    print "B"
+    print("B")
 elif number >= 0.7:
-    print "C"
+    print("C")
 elif number >= 0.6:
-    print "D"
+    print("D")
 elif number < 0.6:
-    print "F"
+    print("F")
 else:
-    print "Error!"
+    print("Error!")
     quit()
 

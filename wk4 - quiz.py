@@ -27,9 +27,9 @@ Answer:A built-in function
 
 What does the following code print out?
 def thing():
-    print 'Hello'
+    print('Hello')
  
-print 'There'
+print('There')
 thing
 Hello
 There
@@ -44,8 +44,8 @@ Question 5
 In the following Python code, which of the following is an "argument" to a function?
 x = 'banana'
 y = max(x)
-print y
-print x
+print(y)
+print(x)
 y
 x
 print
@@ -57,7 +57,7 @@ Answer: x
 
 What will the following Python code print out?
 def func(x) :
-    print x
+    print(x)
 
 func(10)
 func(20)
@@ -77,18 +77,18 @@ Answer: 10 20
 Question 7
 Which line of the following Python program is useless?
 def stuff():
-    print 'Hello'
+    print('Hello')
     return
-    print 'World'
+    print('World')
 
 stuff()
-print 'Hello'
+print('Hello')
 def stuff():
 stuff()
-print 'World'
+print('World')
 return
 
-Answer: print "World"
+Answer: print("World")
 
 
 Question 8
@@ -101,7 +101,7 @@ def greet(lang):
     else:
         return 'Hello'
  
-print greet('fr'),'Michael'
+print(greet('fr'),'Michael')
 Bonjour Michael
 Hello Michael
 def Michael
@@ -120,7 +120,7 @@ def addtwo(a, b):
     return a
 
 x = addtwo(2, 7)
-print x
+print(x)
 addtwo
 2
 9
