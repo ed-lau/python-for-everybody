@@ -16,20 +16,20 @@ name = raw_input("Enter file:")
 if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 
-hcount = dict()                                     #create empty dictionary
-hlst = []                                           #create empty list
+hcount = dict()                                  
+hlst = []                                           
 
 for line in handle: 
     words = line.split()
-    if len(words) > 2 and words[0] == 'From':       #Select lines with 'From'
-        hr = words[5].split(':')                    #Select hour (5th index) and split string with colon
-        hcount[hr[0]] = hcount.get(hr[0], 0) + 1    #increase count for each hour
+    if len(words) > 2 and words[0] == 'From':       
+        hr = words[5].split(':')                    
+        hcount[hr[0]] = hcount.get(hr[0], 0) + 1    
     else:
         continue
 
-for k,v in hcount.items():                           #k = hour, v = count
-    hlst.append((k,v))                               #append tuples to list
+for k,v in hcount.items():                           
+    hlst.append((k,v))                               
 
-hlst.sort()                                         #sort list by hour
-for k,v in hlst:                                    #loop through list of tuples
-    print(k,v)                                      #print counts sorted by hour
+hlst.sort()                                         
+for k,v in hlst:                                    
+    print(k,v)                                   
